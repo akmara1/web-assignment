@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    height: 100vh; /* Make the body take up the full viewport height */
+}
+
+#container {
+    width: 50%;
+    height: 88vh;
+    max-width: 800px; /* Limit the maximum width */
+    border: 5px solid black;
+    background-color: orange;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+    font-size: 24px; /* Reduce the font size */
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#text {
+    margin: 20px 0;
+    color: black;
+    font-size: 12px; /* Reduce the font size */
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 12px; /* Reduce the font size for list items */
+}
+
+a {
+    color: blue; /* Set link text color to blue */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: yellow;
+}
